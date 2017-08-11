@@ -1,0 +1,956 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Creative studio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+    <style>
+        /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@fonts-face{
+    font-family: nevis;
+    src:url(../fonts/nevis.ttf);
+}
+header{
+    background-color: #fff;
+    height: 175px;
+}
+footer
+{
+    height: 115px;
+    margin: 0;
+    background-color: #E2E2E2;
+}
+
+.top_header {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    background-color: #090909;
+}
+
+.main_header {
+    width:1000px;
+    height: 132px;
+    margin: 0 auto;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.logo {
+    width: 220px;
+    height: 100px;
+    margin:17px 0;
+    float: left;
+    position: relative;
+}
+
+.logo_bg_orange {
+    width:150px;
+    height: 100px;
+    margin: 0px;
+   background-image:url(http://s28.postimg.org/fmde6z0nh/logobg.png);
+   background-repeat:  no-repeat;
+    overflow: hidden;
+}
+
+.logo_c {
+    width: 50px;
+    height: 65px;
+    margin:17.5px 21.5px;
+    background-image: url(http://s28.postimg.org/3yjccfbil/logo_c.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo_bg_yellow {
+    width: 80px;
+    height: 78px;
+    margin: 0px;
+    background-color: #FEC600;
+    position: absolute;
+    top: -7px;
+    left:39px;
+    border-radius: 50%;
+    opacity: .5;
+}
+
+.logo_img {
+    width: 104px;
+    height: 39px;
+    margin: 0px;
+    background-image: url(http://s28.postimg.org/5rm90qwp9/creative_studio_logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 32px;
+    left: 99px;
+}
+
+.main_header_wrapper {
+    width: 660px;
+    height: 100px;
+    margin: 16px 0;
+    float: right;
+}
+
+.info {
+    width: 185px;
+    height: 20px;
+    margin: 0px;
+    float: right;
+    color: #B4B3B3;
+    font-size: 13px;
+    font-family: Raleway;
+
+}
+.menu {
+    width: 661px;
+    height: 40px;
+    margin: 0px;
+    float: left;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a
+{
+    color:#FE9B00;
+    font-weight:bold;
+    font-size: 15px;
+    font-family: arial;
+    text-decoration: none;
+    display: block;
+    padding: 20px 19px;
+    text-transform: uppercase;
+}
+.menu ul li a:hover
+{
+  color: #000;
+}
+.banner {
+    width:960px;
+    height: 395px;
+    margin:0px auto;
+    background-image: url(http://s28.postimg.org/ikad0o8b1/background.png);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #C0C0C0;
+}
+.banner_wrapper
+{
+    width: 470px;
+    height: 355px;
+    margin: 10px;
+    float: left;
+}
+.banner_text {
+    width: 470px;
+    height: 282px;
+    margin: 0px;
+    float: left;
+}
+.banner_text p
+{
+    font-size: 71px;
+    text-transform: uppercase;
+    color: #F4F4F4;
+    font-weight: bold;
+    font-family:serif;
+}
+.banner_link_text {
+    width: 460px;
+    height: 60px;
+    background: #090909;
+    float: left;
+    margin: 10px 0;
+}
+
+.work {
+    width: 200px;
+    height: 50px;
+    margin: 5px 0;
+    float: left;
+     color:#999898;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-left: 5px;
+    font-family: Raleway;
+}
+
+.view {
+    width: 150px;
+    height: 50px;
+    margin: 5px 0;
+    float: right;
+    color:#FE9B00;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-right: 30px;
+    font-family: Raleway;
+}
+.banner_style_wrapper{
+    width: 427px;
+    height: 364px;
+    margin: 16px 0;
+    float: right;
+}
+.banner_style_One {
+    width: 102px;
+    height: 304px;
+    margin: 61px 0;
+    float: left;
+}
+
+.banner_img {
+    width: 117px;
+    height: 20px;
+    margin: 0px;
+    background-image: url(http://s28.postimg.org/ywkeqemml/banner_img.png);
+     background-repeat: no-repeat;
+}
+
+.banner_skin_wrap {
+    width: 117px;
+    height: 285px;
+    margin: 0px;
+    background-image: url(http://s28.postimg.org/et0secuml/speedup_mypc.jpg);
+    background-repeat: no-repeat;
+}
+
+.banner_style_two {
+    width: 325px;
+    height:364px;
+    margin: 4px 0;
+    float: left;
+
+}
+
+.banner_img_two {
+    width:325px;
+    height: 19px;
+    margin: 0px;
+    background-image: url(http://s28.postimg.org/qkonp5p8t/banner_img_two.jpg);
+    background-repeat: no-repeat;
+}
+
+.banner_speedup_wrap {
+    width: 325px;
+    height: 342px;
+    margin: 0px;
+    background-image:url(http://s28.postimg.org/itcj4cah9/skin_img.jpg);
+    background-repeat: no-repeat;
+}
+
+.company_details {
+    width:960px;
+    height:288px;
+    margin:0px auto;
+}
+
+.aboutus {
+    width: 295px;
+    height: 250px;
+    margin: 0px 30px 0 0;
+    float: left;
+
+
+}
+.aboutus p
+{
+    font-size: 12px;
+    color: #777777;
+    font-family: Raleway;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color:#090909;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+.aboutus_title, .benefits_title, .testimonial_title{
+    font-size: 18px;
+    font-weight: bold;
+    color:#090909;
+    text-transform: uppercase;
+    border-bottom: 4px solid black;
+    font-family: Raleway;
+}
+#fa-arrow-right {
+    color: black;
+}
+.read
+{
+    width: 110px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #FE9B00;
+    text-align: left;
+    margin-top: 11px;
+    font-weight: bold;
+    outline: none;
+    font-family:Raleway;
+}
+
+.benefits {
+    width: 295px;
+    height: 238px;
+    margin: 0px;
+    float: left;
+}
+
+
+.benefits_text {
+    font-size: 12px;
+    color: #777777;
+    font-family: Raleway;
+}
+
+.fa-check {
+    background-color:#CBCBCB;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+.testimonial {
+    width: 295px;
+    height: 238px;
+    margin: 0px;
+    float:right;
+}
+.testimonial p
+{
+    font-size: 12px;
+    color: #777777;
+    font-family: Raleway;
+}
+.author
+{
+    font-size: 12px;
+    font-style: italic;
+    margin-top:10px;
+}
+.portfolio {
+    width: 960px;
+    height: 220px;
+    margin: 0px auto;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.blog_img {
+    width: 215px;
+    height: 135px;
+    margin: 0px;
+    float: left;
+    background-image:url(http://s28.postimg.org/i53olebrh/blog.jpg);
+    background-repeat:no-repeat;
+}
+
+.dreamland {
+    width: 215px;
+    height: 135px;
+    margin: 0px;
+    float: left;
+   margin-left: 33.33px;
+   background-image: url(http://s28.postimg.org/bfx55dqfh/dreamland.jpg);
+    background-repeat: no-repeat; 
+}
+
+.feature-blog {
+    width: 215px;
+    height: 135px;
+    margin: 0px;
+    float: left;
+   background-image: url(http://s28.postimg.org/42hr6f6dp/feature.jpg);
+   background-repeat: no-repeat;
+    margin-left: 33.33px;
+}
+
+.moving {
+    width: 215px;
+    height: 135px;
+    margin: 0px;
+    float:right;
+    background-image: url(http://s28.postimg.org/cysjacwzx/moving_img.jpg);
+    background-repeat: no-repeat;
+}
+.blog{
+    width: 960px;
+    height: 165px;
+    margin: 15px auto;
+}
+.title_section
+{
+
+}
+.blog_update {
+    width: 455px;
+    height: 85px;
+    margin: 0px;
+    float: left;
+}
+.blog_update p
+{
+    font-size: 12px;
+    color: #5D5D5D;
+    font-family: Raleway;
+}
+
+.social {
+    width: 280px;
+    height: 85px;
+    margin: 0px;
+    float:right;
+}
+.social_title {
+    font-size: 18px;
+    font-weight: bold;
+    color:#090909;
+    text-transform: uppercase;
+    float: right;
+    margin: 0;
+}
+.social_style a {
+    margin-left: 12px;
+}
+
+.footer {
+     width:960px;
+    height: 105px;
+    margin: 0 auto;
+    background-color:;
+
+}
+.footer_wrapper
+{
+    width: 370px;
+    height: 60px;
+    margin:35px 0;
+    float: left;
+}
+.footer_navbar {
+    width: 350px;
+    height: 20px;
+    margin: 5px auto;
+}
+.footer_navbar ul
+{
+    list-style: none;
+}
+.footer_navbar ul li {
+    float: left;
+    margin:0;
+    padding: 0;
+}
+.footer_navbar ul li a
+{
+    color: #5D5D5D;
+    font-size:12px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    padding: 5px 7px;
+    border-right: 1px solid #888888;
+    font-family: Raleway;
+
+}
+.copyright {
+    width: 350px;
+    height: 20px;
+    margin: 5px auto;
+    font-size: 12px;
+    font-weight: 300;
+    font-family:Raleway;
+}
+
+.footer_logo {
+    width: 220px;
+    height: 100px;
+    margin:8px 0;
+    float: right;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+    </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <header>
+            <div class="top_header"></div><!-- top_header -->
+            <div class="main_header">
+                <div class="logo">
+                    <div class="logo_bg_orange">
+                        <div class="logo_c">
+                            <div class="logo_bg_yellow"></div><!-- logo_bg_yellow -->
+                        </div><!-- logo_c -->
+                    </div><!-- logo_bg_orange -->
+                    <div class="logo_img"></div><!-- logo_img -->
+                </div><!-- logo -->
+
+                <div class="main_header_wrapper">
+                    <div class="info">
+                        info@CreativeStudio.com
+                    </div><!-- info -->
+                    <div class="menu">
+                        <ul>                                                                               <li><a href="#">home</a></li>
+                            <li><a href="#">about us </a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">services </a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#"> contact us</a></li>
+                        </ul>
+                    </div><!-- menu -->
+                </div><!-- main_header_wrapper -->
+
+
+            </div><!-- main_header -->
+        </header>
+
+
+        <div class="banner">
+            <div class="banner_wrapper">
+                <div class="banner_text">
+                <p>
+                Creative
+                Design
+                Services
+                </p>
+            </div><!-- banner_text -->
+
+            <div class="banner_link_text">
+                <p class="work">Here’s some nice work</p>
+                <p class="view">view portfolio <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+              </div><!-- banner_link_text -->
+            </div><!-- banner_wrapper -->
+            <div class="banner_style_wrapper">
+                <div class="banner_style_One">
+                <div class="banner_img"></div><!-- banner_img -->
+                <div class="banner_skin_wrap"></div><!-- banner_skin_wrap -->
+            </div><!-- banner_style_One -->
+
+            <div class="banner_style_two">
+               <div class="banner_img_two"></div><!-- banner_img_two -->
+                <div class="banner_speedup_wrap"></div><!-- banner_speedup_wrap -->
+             </div><!-- banner_style_two -->
+            </div><!-- banner_style_wrapper -->
+          </div><!-- banner -->
+
+        <div class="company_details">
+            <div class="aboutus">
+                <h1 class="aboutus_title"><i class="fa fa-arrow-right" aria-hidden="true"></i> ABOUT US</h1>
+                <P>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. 
+                </P>
+                <button class="read"><i class="fa fa-arrow-right" aria-hidden="true" id="fa-arrow-right"></i>      READ </button>
+            </div><!-- aboutus -->
+            <div class="benefits">
+                <h1 class="benefits_title"><i class="fa fa-arrow-right" aria-hidden="true"></i> OUR BENEFITS</h1>
+                <p class="benefits_text">
+                    <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. 
+                </P>
+
+                <p class="benefits_text">
+                    <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. 
+                </P>
+
+               <p class="benefits_text">
+                    <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. 
+                </P>
+            </div><!-- benefits -->
+            <div class="testimonial">
+                <h1 class="testimonial_title"><i class="fa fa-arrow-right" aria-hidden="true"></i> TESTIMONIALS</h1>
+                <P>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. 
+                </P>
+                <p class="author">
+                    Rafi, Graphicsfuel.com
+                </p>
+            </div><!-- testimonial -->
+        </div><!-- company_details -->
+
+        <div class="portfolio">
+          <h1 class="title"><i class="fa fa-arrow-right" aria-hidden="true"></i> OUR PORTFOLIO</h1>
+            <div class="blog_img"></div><!-- blog -->
+            <div class="dreamland">
+               
+            </div><!-- dreamland -->
+            <div class="feature-blog">
+               
+            </div><!-- feature-blog -->
+            <div class="moving">
+                
+            </div><!-- moving -->
+        </div><!-- portfolio -->
+
+        <div class="blog">
+           <div class="blog_update">
+              <h1 class="title"><i class="fa fa-arrow-right" aria-hidden="true"></i> blog updates</h1><!-- title -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. 
+                </p>
+                </div><!-- blog_update -->
+            <div class="social">
+                <h1 class="title"><i class="fa fa-arrow-right" aria-hidden="true"></i> conenct with us</h1><!-- title -->
+                <div class="social_style">
+                    <a href="#"><img src="http://s28.postimg.org/6z4s6pc7h/twitter.png" alt="missing"></a>
+                      <a href="#"><img src="http://s28.postimg.org/hah4zd3wt/facebook.png" alt="missing"></a>
+                      <a href="#"><img src="http://s28.postimg.org/6ox9ncxl9/icon.png" alt="missing"></a>
+                    <a href="#"><img src="http://s28.postimg.org/q81uwpwct/rss.png" alt="missing"></a>
+                </div><!-- social_style -->
+            </div><!-- social -->
+        </div><!-- blog -->
+
+    <footer>
+        <div class="footer">
+            <div class="footer_wrapper">
+                <div class="footer_navbar">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div><!-- footer_navbar -->
+            <div class="copyright">
+                &copy;2010 CreativeStudio. All Rights Reserved
+            </div><!-- copyright -->
+            </div>
+            <div class="footer_logo">
+                    <div class="logo_bg_orange">
+                        <div class="logo_c">
+                            <div class="logo_bg_yellow"></div><!-- logo_bg_yellow -->
+                        </div><!-- logo_c -->
+                    </div><!-- logo_bg_orange -->
+                    <div class="logo_img">
+                        <img src="image/creative_studio_logo.png" alt="missing"/>
+                    </div><!-- logo_img -->
+            </div><!-- footer_logo -->
+        </div><!-- footer -->
+    </footer>
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
